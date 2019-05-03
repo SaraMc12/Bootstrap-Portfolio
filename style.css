@@ -1,0 +1,14 @@
+body{
+    font-family: 'Special Elite', cursive;
+    background-image: url(http://christinawilliamsblog.com/wp-content/uploads/2015/03/Flowers-1920-x-1200.png);
+}
+.container1{
+    background-color: palevioletred;
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+
