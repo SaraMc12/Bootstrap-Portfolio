@@ -2,6 +2,7 @@ body{
     font-family: 'Special Elite', cursive;
     background-image: url(http://christinawilliamsblog.com/wp-content/uploads/2015/03/Flowers-1920-x-1200.png);
 }
+/* background from wallpaperplay.com */
 .container1{
     background-color: palevioletred;
     width: 960px;
@@ -17,3 +18,116 @@ body{
     position:relative; bottom:0;
     
   }
+.btn:hover {
+    opacity: 1;
+}
+body{
+    background-image: url(http://christinawilliamsblog.com/wp-content/uploads/2015/03/Flowers-1920-x-1200.png);
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #topbanner{
+    background-color: whitesmoke;
+  }
+
+.card-img-top{
+  height: 200px;
+  width: 287px;
+}
+  /*  
+  
+    .name{
+      margin-bottom: 10px;
+    }
+  
+    .name h4{
+      margin: 0;
+    }
+  
+    .name input{
+      width: 100%;
+    }
+  
+    / .container2{ 
+      width: 960px;
+      margin: 0 auto;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #e0396a;
+    }
+  
+   .background{
+    background-color: #e0396a;
+    
+    padding: 15px;
+   } 
+  
+   #cartoon{
+    border: 3px solid black;
+     
+    } 
+  #background2{
+    margin: 0 auto;
+    width:800px;
+    background-color:#e0396a;
+  }
+  
+  .footer{
+    margin: 0 auto;
+    width:800px;
+    position:fixed; bottom:0;
+    background-color:#e7e8e8;
+  }
+     /*  
+  #main{
+    margin:0 auto;
+    width: 960px;
+    background-color: #4aaaa5;
+  }
+  
+    #container1 {
+      margin: 40px 50px;
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    #conainer2{
+      float:center;
+      margin: 40px 50px;
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    
+    .box{
+      width: 150px;
+      height: 150px;
+      border: 2px solid black;
+      position: relative;
+    }
+  
+    .box img{
+      width: inherit;
+      height: inherit;
+    }
+  
+  
+  
+    .img2{
+      float:right;
+      position: fixed;
+      width:150px;
+      height:150px;
+      border: 3px solid black;
+    }
+     /* float:right;
+      widows: 150px;
+      height:150px;
+      border: 2px solid black;
+      position: relative;
+    }*/
+  
+  
