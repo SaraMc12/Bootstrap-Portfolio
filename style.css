@@ -34,6 +34,14 @@ body{
   height: 200px;
   width: 287px;
 }
+
+.container2{
+  background-color: #a8bd85;
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
   /*  
   
     .name{
