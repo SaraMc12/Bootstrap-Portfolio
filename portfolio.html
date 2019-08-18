@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style.css">
 </head>
 
@@ -58,6 +60,24 @@
             <div class="mdb-lightbox no-margin">
             </div>
             <div class="row">
+                <figure class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./assets/Sweet_treat.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Sweet Treats Memory Game</h5>
+                              <p class="card-text">This game will keep you entertained and help you choose what to eat for lunch later.</p>
+                              <a href="./projects.html" class="btn btn-info">Learn More</a>
+                            </div>
+            </figure>
+                <figure class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="./assets/Fresh.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Smöthii</h5>
+                              <p class="card-text">Check out this cool touch screen interface for a made-to-order smoothie machine just a simple touch or drag of a button.</p>
+                              <a href="./projects.html" class="btn btn-info">Learn More</a>
+                            </div>
+            </figure>
                     <figure class="col-md-4">
                             <div class="card" style="width: 18rem;">
                                     <img class="card-img-top" src="./assets/adult-airport-bags-2176375 (1).jpg" alt="Card image cap">
@@ -90,7 +110,7 @@
                                 <img class="card-img-top" src="./assets/golden-girls-group-h-getty-gty-jc-180726_hpMain_16x9_992.jpg" alt="Card image cap">
                                 <div class="card-body">
                                   <h5 class="card-title">Golden Girls Trivia</h5>
-                                  <p class="card-text">Think you know a lot about The Golden girls? Try out this trivia game and try to beat the clock. </p>
+                                  <p class="card-text">Do you think you know a lot about The Golden girls? Then maby you should try out this trivia game and try to beat the clock. </p>
                                   <a href="./Triviapage.html" class="btn btn-info">Learn More</a>
                                 </div>
                 </figure>
@@ -146,9 +166,27 @@
             </div>
         </div>
     </div>
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+     
+        $('.col-md-4').hover(
+        function(){
+          $(this).animate({
+            marginTop: "-=1%",
+          },200);
+        },
+
+        function(){
+          $(this).animate({
+            marginTop: "0%"
+          },200);
+        }
+
+      );
+    });
+    </script>
+       
+       
         <div class="footer">
                 <footer>
                         <div class="footer-container"></div>
@@ -157,6 +195,7 @@
                 </footer>
               </div>
 
+  
 </body>
 
 </html>
