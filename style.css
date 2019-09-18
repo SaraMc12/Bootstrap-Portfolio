@@ -5,7 +5,9 @@
 /* background from wallpaperplay.com */
 .container1{
   
-    background-color: palevioletred;
+  background-color: 
+  #b8c94b;
+    /* background-color: palevioletred; */
     width: 960px;
     margin: 0 auto;
     padding: 10px;
@@ -36,10 +38,27 @@
 .btn:hover {
     opacity: 1;
 }
-body{
-    background-image: url(http://christinawilliamsblog.com/wp-content/uploads/2015/03/Flowers-1920-x-1200.png);
+
+body, html {
+  height: 100%;
+
+  /* The image used */
+  background-image: url("./assets/whitewood.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* body{ */
+  /* background-image: url("./assets/album-background-blank-1089842\ \(2\).jpg"); */
+    /* background-image: url(http://christinawilliamsblog.com/wp-content/uploads/2015/03/Flowers-1920-x-1200.png); */
     
-  }
+  /* } */
  
 .title{
   font-family: 'Abril Fatface', cursive;
@@ -67,6 +86,10 @@ body{
   margin: 0 auto;
   padding: 10px;
   box-sizing: border-box;
+}
+
+#nav1{
+  background-color: #fdbfcc;
 }
   /*  
   
